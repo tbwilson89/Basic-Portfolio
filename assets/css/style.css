@@ -1,3 +1,87 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #777777;
+  font-size: 16px;
+}
+
 body {
-  
+  background: #999;
+  line-height: 1.5em;
+}
+/* Header Section / Nav Bar */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #cccccc;
+}
+h1 {
+  padding: 25px;
+  font-size: 2.5em;
+  background: #4aaaa5;
+  font-weight: bold;
+  color: #ffffff;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  margin: 0 auto;
+}
+.nav-links, a {
+  padding: 25px 10px;
+}
+.nav-divider {
+  height: 50%;
+  border-left: 1px solid #ddd;
+}
+/* Center Page Section */
+section {
+  width: 960px;
+  margin: 125px auto;
+  background: white;
+}
+h2 {
+  font-size: 2em;
+  padding: 25px;
+  color: #4aaaa5;
+  font-weight: bold;
+}
+hr {
+  width: 95%;
+}
+.content {
+  padding: 25px;
+}
+img {
+  float: left;
+  width: 25%;
+  margin: 0 25px 10px 0;
+}
+p {
+  margin-bottom: 10px;
+}
+
+/* Portfolio Page Specifics */
+
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding-top: 25px;
+  background: #666666;
+  text-align: center;
+  border-top: 5px solid #4aaaa5;
+}
+
+
+/* Basic Classes for basic functionality */
+.float_left {
+  float: left;
+}
+.float_right {
+  float: right;
 }
